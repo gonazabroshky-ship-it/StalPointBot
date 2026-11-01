@@ -1,0 +1,137 @@
+{
+  "server_name": "StalPoint",
+  "game_name": "STALZONE",
+  "guild_id": 0,
+
+  "database_path": "storage/stalpoint.sqlite3",
+  "exports_directory": "exports",
+  "log_level": "INFO",
+
+  "channels": {
+    "resources": 0,
+    "pawn": 0,
+    "boosts": 0,
+    "arsenal": 0,
+    "contact": 0,
+    "staff_panel": 0,
+    "transcripts": 0,
+    "audit": 0
+  },
+
+  "categories": {
+    "open": {
+      "resources": 0,
+      "pawn": 0,
+      "boosts": 0,
+      "arsenal": 0,
+      "contact": 0
+    },
+    "closed": 0
+  },
+
+  "roles": {
+    "staff": {
+      "resources": [],
+      "pawn": [],
+      "boosts": [],
+      "arsenal": [],
+      "contact": []
+    },
+
+    "notifications": {
+      "resources": [1491169212134064198],
+      "pawn": [],
+      "boosts": [],
+      "arsenal": [],
+      "support": [],
+      "cooperation": [],
+      "ideas": [],
+      "other": []
+    },
+
+    "price_editors": {
+      "resources": [],
+      "boosts": [],
+      "arsenal": []
+    },
+
+    "restriction_managers": [],
+    "faq_editors": [],
+    "catalog_importers": []
+  },
+
+  "currency": {
+    "resources": "игровой валюты",
+    "boosts": "игровой валюты",
+    "arsenal": "игровой валюты"
+  },
+
+  "limits": {
+    "creation_cooldown_seconds": 60,
+    "max_open_per_user": 5,
+    "max_open_per_direction": 1,
+    "max_open_global": 200,
+    "max_quantity": 1000000,
+    "max_price": 1000000000000,
+    "max_cart_positions": 100,
+    "boosts_minimum": 200000,
+    "catalog_page_size": 8,
+    "staff_search_page_size": 8
+  },
+
+  "closing": {
+    "mode": "move",
+    "delete_delay_seconds": 15,
+    "retry_interval_seconds": 60,
+    "recovery_interval_seconds": 60,
+    "require_discord_transcript": true
+  },
+
+  "history": {
+    "save_local_transcripts": true,
+    "download_attachments": false,
+    "include_message_edits": true,
+    "retention_days": null
+  },
+
+  "mail": {
+    "resources": {
+      "recipient": "Pozdnya",
+      "enabled": true
+    },
+
+    "pawn": {
+      "recipient": "Pozdnya",
+      "require_staff_agreement": true
+    },
+
+    "boosts": {
+      "configured": false,
+      "transfer_direction": "",
+      "recipient": "",
+      "payment_instructions": "",
+      "delivery_instructions": ""
+    },
+
+    "arsenal": {
+      "configured": false,
+      "transfer_direction": "",
+      "recipient": "",
+      "payment_instructions": "",
+      "delivery_instructions": ""
+    }
+  },
+
+  "arsenal": {
+    "reputation_per_limit": 1000,
+    "conversion_mode": "approximate",
+    "allow_fractional_limits": false,
+    "fractional_precision": 3,
+    "rounding": "floor",
+    "reservation_enabled": false,
+    "initial_seller_status": "inactive",
+    "sale_timezone": "Europe/Moscow",
+    "sale_start": "14:00",
+    "sale_end": "20:00"
+  }
+}
